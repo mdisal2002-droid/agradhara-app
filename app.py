@@ -48,7 +48,7 @@ if choice == "অ্যাডমিন প্যানেল":
     admin_id = st.sidebar.text_input("অ্যাডমিন আইডি", value="admin")
     admin_pw = st.sidebar.text_input("পাসওয়ার্ড", type="password")
     
-    if admin_id == "admin" and admin_pw == "1234":
+    if admin_id == "agradhara" and admin_pw == "2026100":
         st.success("অ্যাডমিন লগইন সফল")
         t1, t2, t3, t4 = st.tabs(["📋 দৈনিক কালেকশন", "💰 নতুন ঋণ প্রদান", "📊 আজকের রিপোর্ট", "⚙️ এডিট অপশন"])
         
